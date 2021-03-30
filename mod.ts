@@ -4,12 +4,11 @@ const page = (title: string, body: string): Response => new Response(`<title>${t
 <meta charset="utf-8"/>
 <style>
 body {
-  line-height: 1.5em;
 }
 main {
   margin: 50vh auto 0;
   transform: translateY(-50%);
-  padding: 15px 30px;
+  padding: 10px 10px;
   text-align: center;
   font-size: 10em;
   text-transform: uppercase;
